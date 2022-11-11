@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto:wght@400;500&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Quicksand;
+  color: #333;
+}
+.nav-bar {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 800px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.nav-bar h1 {
+  color: #f1356d;
+}
+.nav-links {
+  margin-left: auto;
+}
+.nav-links a {
+  margin: 10px;
+  padding: 6px;
+  text-decoration: none;
+}
+.nav-links a:hover {
+  color: #f1356d;
+}
+
+.content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.trash {
+  width: 24px;
+  margin-top: 10px;
+}
